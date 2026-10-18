@@ -1,0 +1,22 @@
+{
+  "name": "bigo-check",
+  "version": "1.0.0",
+  "description": "tool for find asymtotics",
+  "license": "MIT",
+  "author": "Vasilev Elizar",
+  "type": "commonjs",
+  "main": "main.js",
+  "devDependencies": {
+    "docdash": "^2.0.2",
+    "jsdoc": "^4.0.5"
+  },
+  "scripts": {
+    "docs": "jsdoc -c jsdoc.json"
+  },
+  "engines": { "vscode": "^1.80.0" },
+  "contributes": {
+  "commands": [
+    { "command": "bigo.check", "title": "Big-O: оценить сложность файла" }
+  ]
+ }
+}
